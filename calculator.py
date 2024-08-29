@@ -3,6 +3,7 @@ def calculator():
     try:
       num =input("Enter the first number (or 'q' to quit): ")
       if num == 'q':
+        print("Thank You")
         break
       else:
           num1 = float(num)
